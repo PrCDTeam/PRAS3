@@ -1,0 +1,1 @@
+﻿package com.pointroll.interfaces{		public interface IList{		function set array(array:Array):void;		function add(item:*):uint;		function firstIndexOf(item:*):int;		function lastIndexOf(item:*):int;		function itemAt(index:uint):*;		function removeAt(index:uint):*;		function removeAllAt(index:uint,numItems:uint):Array;	}}

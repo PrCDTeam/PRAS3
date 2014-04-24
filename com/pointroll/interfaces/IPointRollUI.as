@@ -1,0 +1,1 @@
+﻿package com.pointroll.interfaces {	import flash.events.IEventDispatcher;		public interface IPointRollUI extends IEventDispatcher{		function init():void;		function buildUI(...args):void;				function getUIWidth():Number;		function getUIHeight():Number;	}	}

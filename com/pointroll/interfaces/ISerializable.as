@@ -1,0 +1,1 @@
+﻿/********************************************** Author: Tobi Echevarria* Company: PointRol* Interface: ISerializable********************************************/package com.pointroll.interfaces{		public interface ISerializable{		function serialize(a:Array):String;		function deserialize(s:String):String;	}}                   

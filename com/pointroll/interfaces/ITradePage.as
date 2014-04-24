@@ -1,0 +1,1 @@
+﻿package com.pointroll.interfaces{	import flash.events.IEventDispatcher;		public interface ITradePage extends IEventDispatcher{		// Interface methods:		function checkVariables():void;		function getPageData():void;		function getDefault():String;	}	}

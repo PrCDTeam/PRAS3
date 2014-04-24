@@ -1,0 +1,1 @@
+﻿package com.pointroll.interfaces {	public interface IIterable {		function iterator(cursor : * = undefined):IIterator;	}}

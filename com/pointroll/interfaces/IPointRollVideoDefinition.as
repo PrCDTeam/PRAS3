@@ -1,0 +1,1 @@
+﻿package com.pointroll.interfaces {	public interface IPointRollVideoDefinition {		function addRule(rule:BandwidthToVideoRule):void;		function determineVideoForBandwidth(bandwidth:Number):String;		function getRules():Array	}	}

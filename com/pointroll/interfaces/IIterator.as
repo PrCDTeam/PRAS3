@@ -1,0 +1,1 @@
+﻿/********************************************** Author: Tobi Echevarria* Company: PointRol* Interface: IIterator********************************************/package com.pointroll.interfaces{	public interface IIterator{		function reset():void;		function next():*;		function hasNext():Boolean;	}}

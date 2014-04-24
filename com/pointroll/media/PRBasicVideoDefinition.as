@@ -1,0 +1,1 @@
+﻿package com.pointroll.media {	import com.pointroll.interfaces.IPointRollVideoDefinition;		public class PRBasicVideoDefinition implements IPointRollVideoDefinition {		public function PRBasicVideoDefinition() {					}	}	}

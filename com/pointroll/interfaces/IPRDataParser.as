@@ -1,0 +1,1 @@
+﻿package  com.pointroll.interfaces{	import flash.events.IEventDispatcher;		public interface IPRDataParser extends IEventDispatcher{		function parseData(sourceData:*,...args):void;				function getParseData():*;	}	}
