@@ -1,0 +1,1 @@
+﻿package com {	import flash.events.Event;				public class SlotEvent extends Event{		public static const SPIN_COMPLETE:String = 'spinComplete';				public var data:*;		public function SlotEvent(type:String, data:*) {			super(type);			this.data = data;		}	}	}
