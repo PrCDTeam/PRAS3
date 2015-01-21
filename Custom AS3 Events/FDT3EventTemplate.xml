@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><templates><template autoinsert="true" context="com.powerflasher.fdt.ui.editor.template.as3" deleted="false" description="Creates a custom event" enabled="true" name="event">/**
+ * @author ${user}
+ * @version 1.0
+ */
+
+package ${enclosing_package}
+{
+	import flash.events.Event;
+	
+	public class ${enclosing_type} extends Event
+	{
+//- PRIVATE &amp; PROTECTED VARIABLES -------------------------------------------------------------------------
+
+		
+		
+//- PUBLIC &amp; INTERNAL VARIABLES ---------------------------------------------------------------------------
+		
+		public static const DEFAULT_NAME:String = "${enclosing_package_and_type}";
+		
+		// event constants
+		public static const YOUR_EVENT_CONSTANT:String = "yourEventConstant";${cursor}
+		
+		public var params:Object;
+		
+//- CONSTRUCTOR	-------------------------------------------------------------------------------------------
+	
+		public function ${enclosing_type}($$type:String, $$params:Object, $$bubbles:Boolean = false, $$cancelable:Boolean = false)
+		{
+			super($$type, $$bubbles, $$cancelable);
+			
+			this.params = $$params;
+		}
+		
+//- PRIVATE &amp; PROTECTED METHODS ---------------------------------------------------------------------------
+		
+		
+		
+//- PUBLIC &amp; INTERNAL METHODS -----------------------------------------------------------------------------
+	
+		
+	
+//- EVENT HANDLERS ----------------------------------------------------------------------------------------
+	
+		
+	
+//- GETTERS &amp; SETTERS -------------------------------------------------------------------------------------
+	
+		
+	
+//- HELPERS -----------------------------------------------------------------------------------------------
+	
+		public override function clone():Event
+		{
+			return new ${enclosing_type}(type, this.params, bubbles, cancelable);
+		}
+		
+		public override function toString():String
+		{
+			return formatToString("${enclosing_type}", "params", "type", "bubbles", "cancelable");
+		}
+	
+//- END CLASS ---------------------------------------------------------------------------------------------
+	}
+}</template></templates>
