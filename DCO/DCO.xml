@@ -1,0 +1,30 @@
+<data>
+  <CapitalOne_Logo>
+    <v><![CDATA[http://speed.pointroll.com/PointRoll/Media/asset/PointRollMouradian/124234/capital_one.png]]></v>
+  </CapitalOne_Logo>
+  <CapitalOne_Background>
+    <v><![CDATA[http://speed.pointroll.com/PointRoll/Media/asset/PointRollMouradian/124220/background-blue.jpg]]></v>
+  </CapitalOne_Background>
+  <CapitalOne_CardInformation>
+    <v>
+      <label>
+        <v><![CDATA[]]></v>
+      </label>
+      <CapitalOne_Tagline>
+        <v><![CDATA[Capital One <br>Cash rewards <br>Credit Card]]></v>
+      </CapitalOne_Tagline>
+      <CapitalOne_Product>
+        <v><![CDATA[http://speed.pointroll.com/PointRoll/Media/asset/PointRollMouradian/124222/cash_card.png]]></v>
+      </CapitalOne_Product>
+      <CapitalOne_CardIncentive>
+        <v><![CDATA[Earn 1.25 miles per dollar on every purchase everyday.]]></v>
+      </CapitalOne_CardIncentive>
+    </v>
+  </CapitalOne_CardInformation>
+  <CapitalOne_CTA>
+    <v><![CDATA[Apply Now]]></v>
+  </CapitalOne_CTA>
+  <CapitalOne_Headline>
+    <v><![CDATA[Earn the most <br>rewards of any <br>small business credit card]]></v>
+  </CapitalOne_Headline>
+</data>
