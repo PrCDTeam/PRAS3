@@ -1,0 +1,2 @@
+-put the SnowFlake.as in your com folder or fla’s directory.
+-reference the code in a movie clip ‘snow’ in ‘CAS2012_Gator_fla_728x90.fla’

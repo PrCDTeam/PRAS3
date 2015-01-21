@@ -1,0 +1,6 @@
+—put the Confetti.as file in your fla’s directory or com folder
+-create a new confetti variable (var c1:Confetti ) in your main AS
+-when you want the confetti to animate, instantiate it like so:
+	c1 = new Confetti({width: 300, height: 250 / 0.7,colors: [0x003399, 0xcc0000, 0xcccc00, 0x00de00, 0x00dece],maxPieces: 650});
+
+See implementation in the EverythingA_pol.as file.
